@@ -1,0 +1,194 @@
+body {
+    color: black;
+    background-color: #E7E7E7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    margin: 0;
+}
+header {
+    max-width: 100%;
+    height: 85px;
+    background: #1C2B3E;
+    display: grid;
+    margin: auto;
+    justify-content: center;
+    }
+   
+    header nav ul {
+        list-style: none;
+        color: white;
+        font-family: "Tenor Sans";
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        list-style: none;
+        display: flex;
+        gap: 40px;
+    
+    }
+    header a {
+        text-decoration: none;
+        color: white;
+    }
+    img {
+        max-width: 100%;
+        display: flex;
+    }
+    .titolo {
+        color: #1C2B3E;
+        font-family: "Tenor Sans";
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        height: 133px;
+        position: absolute;
+        margin-left: 164px;
+        margin-top: 253px;
+    }
+    img {
+        display: flex;
+        margin: auto;
+    }
+  
+    section.info {
+            color: #1E1E1E;
+    font-family: "Tenor Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 95px;
+    height: 37px;
+    }
+     section.card {
+            display: flex;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            max-width: 1000px;
+            margin: 48px auto;
+            gap: 96px;
+        }
+        section.card h2 {
+            display: flex;
+            background-color: white;
+            width: 280px;
+            height: 70px;
+            padding-top: 0%;
+            margin: 0;
+            text-align: center;
+        }
+        section.card h2 {
+            display: flex;
+        padding-top: 22px;
+        justify-content: center;
+        color: #000;
+        text-align: center;
+        font-family: "Familjen Grotesk";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        }
+        section.card h2 a {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            text-decoration: none;
+            color: #000;
+        }
+        section.card h2 a:hover {
+            text-decoration: underline;
+        }
+        section.card img {
+            display: flex;
+            padding-bottom: 0%;
+            margin-top: 0px;
+            height: 280px;
+            width: 280px;
+            object-fit: cover;
+        }
+   .Prima_immagine img {
+    width: 100%;
+   height: 80px;
+   object-fit: cover;
+   margin: 0;
+}
+   .Testo_artista h1 {
+    color: #C42F69;
+    font-family: "Tenor Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 116.971%;
+   }
+   .Paragrafo p {
+    width: 613px;
+height: 0;
+flex-shrink: 0;
+color: #000;
+font-family: Helvetica;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+}
+.Foto1 div {
+width: 364px;
+height: 243px;
+flex-shrink: 0;
+display: flex;
+}
+.Foto2 div {
+width: 1400px;
+height: 1686px;
+flex-shrink: 0;
+}
+.Testo2 p {
+width: 613px;
+height: 194px;
+flex-shrink: 0;
+color: #000;
+font-family: Helvetica;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.section .Immagini {
+max-width: 1300px;
+display: grid;
+grid-template-columns: repeat(auto-fix, minimax 300px, 1fr);
+gap: 22px;
+margin: 48px auto;
+}
+section .Immagini img {
+    display: flex;
+    padding-bottom: 0%;
+    margin-top: 0px;
+    height: 280px;
+    width: 280px;
+    object-fit: cover;
+}
+.footer {
+    width: 1400px;
+height: 227px;
+flex-shrink: 0;
+background: #1C2B3E;
+}
+
+footer nav ul {
+    list-style: none;
+    color: white;
+    font-family: "Tenor Sans";
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
