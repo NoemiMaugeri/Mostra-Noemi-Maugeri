@@ -1,86 +1,114 @@
 body {
     color: black;
     background-color: #E7E7E7;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 26px;
-    font-style: normal;
-    margin: 0;
-}
-header {
-    max-width: 100%;
-    height: 85px;
-    background: #1C2B3E;
-    display: grid;
     margin: auto;
-    justify-content: center;
-    }
-   
-    header nav ul {
-        list-style: none;
-        color: white;
-        font-family: "Tenor Sans";
-        font-size: 27px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        list-style: none;
+}
+    header {
+        max-width: 100%;
+        height: 90px;
+        margin: auto;
         display: flex;
-        gap: 40px;
-    
-    }
-    header a {
+        background-color: #1C2B3E;
+        justify-content: space-between;    
+      }
+       
+      header p {
+        width: 100px;
+        color: rgba(255,255,255,1);
+        margin-top: 20px;
+        margin-left: 130px;
+        font-family: Tinos;
+        font-weight: Regular;
+        font-size: 32px;
+        text-align: left;
+      }
+       
+      header nav ul {
+        width: 100px;
+        color: rgba(255,255,255,1);
+        margin-right: 400px;
+        font-family: Tenor Sans;
+        font-weight: Medium;
+        font-size: 24px;
+        text-align: left;
+        display: flex;
+        gap: 50px;
         text-decoration: none;
-        color: white;
-    }
+        list-style-type: none;
+      }
+       
+      header nav ul a {
+        color: rgba(255,255,255,1);
+        text-decoration: none;
+      }
+       
+      header nav ul a:hover {
+        text-decoration: underline;
+      }
+    
     img {
         max-width: 100%;
-        display: flex;
+    height: auto;
+    display: block;
+    object-fit: cover;
     }
-    .titolo {
+    .Titolo {
         color: #1C2B3E;
-        font-family: "Tenor Sans";
-        font-size: 54px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 100%;
-        height: 133px;
+        margin-top: 50px;
+        margin-left: 130px;
+        font-family: Tenor Sans;
+        font-weight: Regular;
+        font-size: 35px;
+      }
+
+
+.Immagine {
+        width: 336px;
+        height: 458px;
         position: absolute;
-        margin-left: 164px;
-        margin-top: 253px;
+        top: 250px;
+        right: 164px;
+        padding-top: 120px;
+        
     }
-    img {
-        display: flex;
-        margin: auto;
+    .Testo {
+        width: 460px;
+        color: black;
+        margin-top: 100px;
+        margin-left: 130px;
+        margin-bottom: 200px;
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 80px;
     }
   
-    section.info {
-            color: #1E1E1E;
-    font-family: "Tenor Sans";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: 95px;
-    height: 37px;
+    .Info {
+        color: #1C2B3E;
+        margin-top: 50px;
+        margin-left: 130px;
+        font-family: Tenor Sans;
+        font-weight: Regular;
+        font-size: 35px;
     }
-     section.card {
+     .Card {
             display: flex;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             max-width: 1000px;
-            margin: 48px auto;
+            margin-left: 60px;
             gap: 96px;
+            padding-left: 80px;
+            padding-bottom: 70px;
         }
-        section.card h2 {
+    .Card h2 {
             display: flex;
-            background-color: white;
             width: 280px;
             height: 70px;
             padding-top: 0%;
             margin: 0;
             text-align: center;
         }
-        section.card h2 {
+    .Card h2 {
             display: flex;
         padding-top: 22px;
         justify-content: center;
@@ -92,30 +120,25 @@ header {
         font-weight: 500;
         line-height: normal;
         }
-        section.card h2 a {
+    .Card h2 a {
             display: flex;
             justify-content: center;
             text-align: center;
             text-decoration: none;
             color: #000;
         }
-        section.card h2 a:hover {
+        .Card h2 a:hover {
             text-decoration: underline;
         }
-        section.card img {
+        .Card img {
             display: flex;
             padding-bottom: 0%;
             margin-top: 0px;
             height: 280px;
-            width: 280px;
+            width: 100%;
             object-fit: cover;
         }
-   .Prima_immagine img {
-    width: 100%;
-   height: 80px;
-   object-fit: cover;
-   margin: 0;
-}
+
    .Testo_artista h1 {
     color: #C42F69;
     font-family: "Tenor Sans";
@@ -123,6 +146,7 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 116.971%;
+    padding-left: 80px;
    }
    .Paragrafo p {
     width: 613px;
@@ -135,17 +159,17 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 display: flex;
+padding-left: 80px;
 }
-.Foto1 div {
-width: 364px;
-height: 243px;
-flex-shrink: 0;
-display: flex;
-}
-.Foto2 div {
-width: 1400px;
-height: 1686px;
-flex-shrink: 0;
+.Foto1 {
+    width: 336px;
+    height: 458px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 250px;
+    right: 164px;
 }
 .Testo2 p {
 width: 613px;
@@ -157,15 +181,20 @@ font-size: 26px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+padding-top: 300px;
+padding-left: 80px;
 }
-.section .Immagini {
-max-width: 1300px;
-display: grid;
-grid-template-columns: repeat(auto-fix, minimax 300px, 1fr);
-gap: 22px;
-margin: 48px auto;
+.Immagini {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1000px;
+    margin-left: 60px;
+    gap: 96px;
+    padding-left: 80px;
+    padding-bottom: 70px;
 }
-section .Immagini img {
+.Immagini img {
     display: flex;
     padding-bottom: 0%;
     margin-top: 0px;
@@ -173,22 +202,124 @@ section .Immagini img {
     width: 280px;
     object-fit: cover;
 }
-.footer {
-    width: 1400px;
-height: 227px;
-flex-shrink: 0;
-background: #1C2B3E;
+.Immagine1 {
+    width: 455px;
+    height: 194px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 250px;
+    right: 164px; 
 }
-
-footer nav ul {
-    list-style: none;
-    color: white;
-    font-family: "Tenor Sans";
-    font-size: 27px;
+.Testo_info {
+     height: 0;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 26px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    list-style: none;
     display: flex;
-    gap: 40px;
+    margin-left: 70px;
+    margin-top: 30px;
+    width: 500px;
+    height: 30px;
+    padding-bottom: 300px;
 }
+.Titolo2 p {
+    color: #C42F69;
+    font-family: "Tenor Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+   padding-bottom: 70px;
+    padding-left: 130px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.Testo2_info p {
+    height: 500px;
+    width: 500px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    margin-left: 20px;
+    padding-top: 20px;
+    margin-top: 0px;
+    padding-bottom: 70px;
+    margin-bottom: 200px;
+    padding-left: 120px;
+}
+.Immagine2 {
+    width: 455px;
+    height: 194px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    top: 800px;
+    right: 164px; 
+}
+.Testo_mostra p {
+width: 613px;
+height: 0;
+flex-shrink: 0;
+color: #000;
+font-family: Helvetica;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+margin-left: 30px;
+padding-top: 30px;
+padding-bottom: 900px;
+padding-left: 120px;
+}
+footer {
+    max-width: 100%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    background-color: #1C2B3E;
+    justify-content: space-between;
+}
+footer nav ul {
+    width: 100px;
+    color: rgba(255,255,255,1);
+    margin-right: 400px;
+    font-family: Tenor Sans;
+    font-weight: Medium;
+    font-size: 24px;
+    text-align: left;
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+    list-style-type: none;
+}
+footer p {
+    color: rgba(255,255,255,1);
+    margin-top: 20px;
+    margin-left: 130px;
+    font-family: Tinos;
+    font-weight: Regular;
+    font-size: 26px;
+    text-align: left;
+    padding-top: 20px;
+  }
+  footer nav ul a {
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+  }
+   
+  footer nav ul a:hover {
+    text-decoration: underline;
+  }
+  
